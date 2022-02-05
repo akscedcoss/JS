@@ -1,2 +1,2 @@
 // Only change code below this line
-const myArray = ["ffg",45];
+const myArray = [2,[34,44]];
