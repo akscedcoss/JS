@@ -1,7 +1,7 @@
 #!/bin/sh
 while :
 do
-    echo "Enter Commit msg: "  
+    echo "Enter Commit msg:"  
     read commit_msg
     git status
     git add .
