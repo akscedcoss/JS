@@ -1,6 +1,12 @@
 #!/bin/sh
-git status
-git add .
-git status
-git commit -m"$1"
-git push -u origin main
+while :
+do
+    echo "Enter Commit msg: "  
+    read commit_msg
+    git status
+    git add .
+    git status
+    git commit -m"$commit_msg"
+    git push -u origin main
+    clear
+done
