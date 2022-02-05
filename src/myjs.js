@@ -2,10 +2,8 @@
 const myArray = [];
 
 // Only change code below this line
-let num=0;
-while(num<=5)
+for(let i=1 ;i<=5;i++)
 {
-  myArray.unshift(num);
-  num++;
+  myArray.push(i);
 }
 console.log(myArray)
